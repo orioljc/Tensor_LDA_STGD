@@ -61,5 +61,3 @@ docID wordID count
 docID wordID count 
 
 docID wordID count 
-
-Each of these files 
