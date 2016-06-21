@@ -2,7 +2,7 @@
 
 This code performs learning of topic models via method of moments using tensor decomposition on a single machine. Specifically, the code first performs a pre-processing step which implements a whitening transformation for matrix/tensor orthogonalisation and dimensionality reduction and then finds a decomposition of the tensor using Stochastic Gradient Descent. This code derives from the project in https://github.com/FurongHuang/TensorDecomposition4TopicModeling.git, for which a full description can be found [here](http://newport.eecs.uci.edu/anandkumar/Lab/Lab_sub/TopicModeling.html).
 
-This project has also been adapted to be able to learn multiple LDA models of many datasets on the same run. The code for inference has been left commented as it still needs to be adapted to work with multiple LDA datasets, although it works well for for one single dataset.
+This project has also been adapted to be able to learn multiple LDA models of many datasets on the same run. The code for inference has been left commented as it still needs to be adapted to work with multiple LDA datasets, although it works well for one single dataset.
 
 #Basic usage
 To start using this code, go to a terminal and do: 
